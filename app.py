@@ -9,7 +9,7 @@ with open("model.pkl", "rb") as f:
 with open("scaler.pkl", "rb") as f:
     scaler = pickle.load(f)
 
-st.title("🧠 Breast Cancer Diagnosis Prediction App")
+st.title("🧠 Breast Cancer Classification App")
 st.write("Enter the following details to predict whether the tumor is **Malignant (M)** or **Benign (B)**.")
 
 # Feature input (30 features)
